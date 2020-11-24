@@ -1,0 +1,34 @@
+$nhl-font: NHL;
+
+
+
+.titleRow {
+    display: flex;
+    flex-direction: row;
+}
+.teamLocation {
+    font-size: 50px;
+    font-family: $nhl-font;
+    margin-left: 50px;
+    -webkit-text-stroke-width: 2px;
+    
+}
+.teamName {
+    font-size: 80px;
+    font-family: $nhl-font;
+    -webkit-text-stroke-width: 3px;
+    align-self: flex-end;
+}
+
+.column {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: red;
+
+}
+.container {
+    margin: 5%;
+}
+
